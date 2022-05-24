@@ -1,3 +1,173 @@
-h1 {
-    color: aqua;
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+/*Main Container Styling*/
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 19%;
+    column-gap: 4px;
+    row-gap: 4px;
+    text-align: center;
+}
+
+/* Header Styling */
+.header {
+    display: grid;
+    grid-column: 2/4;
+    padding-top: 2%;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.fa-solid {
+    font-size: 48px;
+    color: red;
+}
+
+/* Icons Styling*/
+.dashboard-.icons {
+    color: #fff;
+    background-color: #fff;
+}
+
+.icons {
+    color: wheat;
+    
+}
+
+.menu-icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    display: grid;
+    grid-row: 1/6;
+    background-color: rgb(44, 42, 42);
+    justify-content: start;
+    text-align: start;
+    color: #fff;
+    align-items: center;
+}
+
+input {
+    width: 600px;
+    height: 25px;
+    border-radius: 20px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links-1 {
+    padding-top: 20px;
+}
+
+/* Proile Styling */
+.profile {
+    display: grid;
+    grid-column: 2/4;
+    padding-top: 20px;
+}
+
+.profile-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.profile-icons {
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile-buttons {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 35px;
+    border: 0;
+    background-color: rgb(55, 55, 87);
+    color: #fff;
+    border-radius: 20px 20px;
+}
+
+/* Topbar Styling */
+.topbar-projects {
+    display: grid;
+    grid-column: 2/3;
+}
+
+.topbar-announcement {
+    display: grid;
+    grid-column: 3/4;
+}
+
+.topbar-header {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+}
+
+/* Article Styling */
+.article {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/6;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 15px;
+    row-gap: 25px;
+}
+
+.cards {
+    margin: 10px 10px;
+    height: 200px;
+    padding: 10px 10px;
+    background-color: #bccbde;
+    border-left: 10px solid green;
+}
+
+/* Righbar Styling */
+.righbar {
+    display: grid;
+    grid-column: 3/4;
+}
+
+/* Trending Styling */
+.trending {
+    display: grid;
+    grid-column: 3/4;
+}
+
+/* Picture Styles*/
+img.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px 20px;
 }
