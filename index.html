@@ -11,110 +11,196 @@
 </head>
 <body>
     <div class="container">
+
         <div class="sidebar">
-            <h3><img src="./assets/view-dashboard.png" alt="" class="dashbboard-icons"></i> Dashboard</h3>
-            <ul class="links-1">
-                <li><img src="./assets/home.png" alt="" class="icons">Home </li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-            <ul class="links-2">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
-        </div>
-
-        <div class="header">
-            <div class="menu">
-                <div class="search">
-                    <i class="fas fa-search"></i>
-                    <input type="text" class="input"></input>
-                </div>
-                <div class="menu-icons">
-                    <i class="fas fa-bell"></i>
-                    <img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                    <p><strong>Aniekan Essiet</strong></p>
-                </div>
+            <div class="links">
+                <h3><img src="./assets/dashboard.png" alt="" class="dashbboard-icons"> Dashboard</h3>
+                <ul class="links-1">
+                    <li><img src="./assets/home.png" alt="" class="icons">Home </li>
+                    <li><img src="./assets/user.png" alt="" class="icons">Profile</li>
+                    <li><img src="./assets/chat.png" alt="" class="icons">Messages</li>
+                    <li><img src="./assets/history.png" alt="" class="icons">History</li>
+                    <li><img src="./assets/note.png" alt="" class="icons">Tasks</li>
+                    <li><img src="./assets/people.png" alt="" class="icons">Communities</li>
+                </ul>
+                <ul class="links-2">
+                    <li><img src="./assets/settings.png" alt="" class="icons">Settings</li>
+                    <li><img src="./assets/help.png" alt="" class="icons">Support</li>
+                    <li><img src="./assets/privacy.png" alt="" class="icons">Privacy</li>
+                </ul>
             </div>
         </div>
+            
+        <div class="main-header">
 
-        <div class="profile">
-            <div class="profile-header">
-                <div class="profile-icons">
-                    <img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                    <p><strong>Aniekan Essiet  (@fritzjackhunt)</strong></p>
-                </div>
-                <div class="profile-buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+            <div class="header">
+                <div class="menu">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="menu-icons">
+                        <i class="fas fa-bell flex-pic"></i>
+                        <img src="./assets/pic1.jpg" alt="" class="profile-pic">
+                        <p><strong>Aniekan Essiet</strong></p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="topbar-projects">
-            <div class="topbar-header">
-                <h4>Your projects</h4>
-            </div>
-        </div>
-
-        <div class="topbar-announcement">
-            <div class="topbar-header">
-                <h4>Announcement</h4>
+            <div class="profile">
+                <div class="profile-header">
+                    <div class="profile-icons">
+                        <img src="./assets/pic1.jpg" alt="" class="profile-picture">
+                        <div class="greeting">
+                            <p>Hi, there</p>
+                            <p><strong>Aniekan Essiet  (@fritzjackhunt)</strong></p>
+                        </div>
+                    </div>
+                    <div class="profile-buttons">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="article">
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
-            </div>
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
-            </div>
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
-            </div>
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
-            </div>
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
-            </div>
-            <div class="cards">
-                <p><b>Title</b></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores exercitationem autem rem totam aliquid ipsum aut consequuntur? Facere, adipisci.</p>
+            <h3>Your Projects</h3>
+            <div class="article-contents">
+                <div class="content-cards">
+                    
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="texts">
+                            <p><b>Title</b></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, debitis! Perferendis nam corporis minus iste soluta ipsam porro? Facilis beatae et, dignissimos numquam eos hic mollitia asperiores aperiam delectus dicta?!</p>
+                        </div>
+                        <div class="options">
+                            <img src="./assets/star.png" alt="" class="icons">
+                            <img src="./assets/eye.png" alt="" class="icons">
+                            <img src="./assets/share.png" alt="" class="icons">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="rightbar">
-            <div class="rightbar-header">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </div>
+            <h3>Announcements</h3>
+            <div class="rightbar-contents">
+                <div class="rightbar-header">
+                    <div class="announcements">
+                        <p><b>Announcement 1</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                    <hr>
+                    <div class="announcements">
+                        <p><b>Announcement 2</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                    <hr>
+                    <div class="announcements">
+                        <p><b>Announcement 3</b></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div> 
         </div>
 
         <div class="trending">
+            <h3>Trending</h3>
             <div class="trending-contents">
-                <ul><img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                <p><strong>Aniekan Essiet</strong></p></ul>
-                <ul><img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                <p><strong>Aniekan Essiet</strong></p></ul>
-                <ul><img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                <p><strong>Aniekan Essiet</strong></p></ul>
-                <ul><img src="./assets/pic1.jpg" alt="" class="profile-pic">
-                    <p><strong>Aniekan Essiet</strong></p></ul>
+                <div class="trending-topics">
+                    <img src="./assets/pic2.jpg" alt="" class="profile-pic">
+                    <div class="trending-users">
+                        <p>@metoo</p>
+                        <p>Me Too</p>
+                    </div>
+                </div>
+                <div class="trending-topics">
+                    <img src="./assets/pic3.jpg" alt="" class="profile-pic">
+                    <div class="trending-users">
+                        <p>@blm</p>
+                        <p>Black Lives Matter</p>
+                    </div>
+                </div>
+                <div class="trending-topics">
+                    <img src="./assets/pic4.jpg" alt="" class="profile-pic">
+                    <div class="trending-users">
+                        <p>@lpu</p>
+                        <p>Love, Peace &amp; Unity</p>
+                    </div>
+                </div>
+                <div class="trending-topics">
+                    <img src="./assets/pic5.jpg" alt="" class="profile-pic">
+                    <div class="trending-users">
+                        <p>@gender</p>
+                        <p>Gender Equality</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
 
