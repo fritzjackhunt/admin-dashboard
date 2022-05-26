@@ -1,3 +1,4 @@
+/* Generic Styling*/
 * {
     margin: 0 0;
     padding: 0 0;
@@ -18,6 +19,7 @@ body {
     height: 100vh;
 }
 
+/*Main Header Styling*/
 .main-header {
     display: grid;
     grid-column: 2/4;
@@ -27,7 +29,6 @@ body {
     padding: 10px 0px;
 }
 
-/* Header Styling */
 .header {
     display: grid;
     grid-column: 1/4;
@@ -103,6 +104,7 @@ body {
     padding: 10% 10%;
 }
 
+/*Search Button Styling*/
 .searchTerm {
     width: 100%;
     border: 3px solid rgb(44, 42, 42);
@@ -183,6 +185,7 @@ ul {
     justify-content: space-between;
 }
 
+/*Button Styling*/
 button {
     padding: 10px 35px;
     border: 0;
@@ -190,13 +193,6 @@ button {
     color: #fff;
     border-radius: 20px 20px;
     max-height: 40px;
-}
-
-.topbar-header {
-    padding: 0px 20px;
-    display: flex;
-    justify-content: start;
-    padding-top: 20px;
 }
 
 /* Article Styling */
@@ -241,19 +237,19 @@ button {
     justify-content: space-between;
 }
 
-/* Righbar Styling */
+/* Rightbar Styling */
 .rightbar {
     display: grid;
     grid-column: 3/4;
 }
 
-/* Trending Styling */
-.trending {
-    display: grid;
-    grid-column: 3/4;
+.rightbar-contents {
+    background-color: #bccbde;
+    padding: 0% 10%;
+    border-radius: 5px 5px;
 }
 
-/* Picture Styles*/
+/* Picture Styles */
 img.profile-pic {
     height: 40px;
     width: 40px;
@@ -271,17 +267,17 @@ img.profile-pic {
     flex: 20%;
 }
 
-.rightbar-contents {
-    background-color: #bccbde;
-    padding: 0% 10%;
-    border-radius: 5px 5px;
-}
-
+/* Announcement Component Styling */
 .announcements {
     padding: 7% 0%;
     text-align: left;
 }
 
+/* Trending Component Styling */
+.trending {
+    display: grid;
+    grid-column: 3/4;
+}
 .trending h3 {
     display: flex;
     align-self: flex-end;
